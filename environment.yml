@@ -15,6 +15,9 @@ dependencies:
   - opencv
   - librosa
   - nb_conda_kernels
-  - dgl
+  - flake8
+  - black
+  - ipywidgets==7.*
   - pip:
     - torchviz
+    - dgl
